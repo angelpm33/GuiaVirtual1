@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario ejemplo de validaciones</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section >   
+        <form name="fregistro" id="fregistro" method="get">
+            <p> <h2>Validaciones de formularios en html 5</h2>
+                Nombre:&nbsp;<input type="text" name="nombre" id="nombre" autocomplete="off" autofocus="" required="">
+                <br/><br/>
+                Correo electronico:&nbsp;<input type="email" name="email_control" required />
+                <br/><br/>
+                Fecha:&nbsp; <input type="date" name="date_control" />
+                <br/><br/>
+                Edad:&nbsp;<input type="number"  name="edad_control" min="1" max="100" value="0" />
+                <br/><br/>
+                URL:&nbsp; <input type="url" name="url_control" placeholder="Escripe la URL de tu página web personal" />
+                <br/><br/>
+                Telefono:&nbsp;<input pattern="[0-9]{8}" name="tel_control" placeholder="8 digitos sin espacio"> 
+                <br/><br/>
+            <input type="submit" value="Enviar">
+        </form>
+        </section>
+    </body>
+</html>

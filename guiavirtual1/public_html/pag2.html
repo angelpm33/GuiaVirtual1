@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GUIA VIRTUAL 1 - IW - PAG 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       
+        
+        
+    <article>   
+        <h1> Reino Animal </h1>
+        <canvas id="myCanvas" width="400" height="300"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      var imageObj = new Image();
+
+      imageObj.onload = function() {
+        context.drawImage(imageObj, 0, 0);
+      };
+      imageObj.src = 'http://jaliscoenchiquito.jalisco.gob.mx/images/fanimal.jpg';
+    </script>
+    
+    <p>En la clasificación científica de los seres vivos, el reino Animalia (‘animales’) o Metazoa (‘metazoos’) constituye un amplio grupo de organismos que son eucariotas, heterótrofos, pluricelulares y tisulares. Se caracterizan por su amplia capacidad de movimiento, por no tener cloroplasto ni pared celular y por su desarrollo embrionario; que atraviesa una fase de blástula y determina un plan corporal fijo (aunque muchas especies pueden sufrir una metamorfosis posterior). Los animales forman un grupo natural estrechamente emparentado con los hongos. Animalia es uno de los cuatro reinos del dominio Eukaryota, y a él pertenece el ser humano.</p>
+    
+    <details>
+  <summary>Características</summary>
+  <p>En el siguiente esquema se muestran las características comunes a todos los animales:</p>
+  <ul>
+    	        	<li>Organización celular. Eucariota y pluricelular.</li>
+    	       		<li>Metabolismo. Aerobio (consumen oxígeno).</li>
+			<li>Desarrollo. Mediante embrión y hojas embrionarias. El cigoto se divide repetidamente por mitosis hasta originar una blástula.</li>
+			<li>Estructura y funciones. Poseen colágeno como proteína estructural. Tejidos celulares muy diferenciados. Sin pared celular. Algunos con quitina. Fagocitosis, en formas basales. Ingestión con fagocitosis ulterior o absorción en formas derivadas ("más evolucionadas"), con capacidad de movimiento, etc.</li>
+			<li>Simetría. Excepto las esponjas, los demás animales presentan una disposición regular de las estructuras del cuerpo a lo largo de uno o más ejes corporales. Los tipos principales de simetría son la radial y la bilateral.</li>
+                        
+  	        </ul>
+    
+    </details>
+    <details>
+     <summary>Funciones esenciales</summary>
+                <ul>
+    	        	<li>Alimentación</li>
+    	       		<li>Respiración</li>
+			<li>Circulación</li>
+			<li>Excreción</li>
+			<li>Respuesta</li>
+                        <li>Movimiento</li>
+                        <li>Reproducción</li>
+  	        </ul>
+    </details>
+ 
+    <details>
+        <summary>Podcast</summary>
+        
+        <audio src="media/audio.mp3" preload="auto" controls></audio>
+    </details>
+    
+    <details>
+        <summary>Video</summary>
+        <video width="640" height="480" controls >
+            <source src="media/videora.mp4" type="video/mp4" />
+        </video>
+    </details>
+    
+    <p>Ultima actualizacion: <time datetime="2016-08-27 22:30" >27 de Julio de 2016</time></p>
+   </article>
+    
+    <!-- Pie de pagina -->
+        <footer>
+                <p>Copyright 2016 - </P>  
+        </footer>
+    
+    </body>
+</html>
